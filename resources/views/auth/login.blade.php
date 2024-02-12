@@ -21,7 +21,7 @@
                 <div class="d-flex justify-content-center align-items-center my-4">
                     <h2>Login Admin</h2>
                 </div>
-                <p>Username : nawfal@mail.com <br> password : password</p>
+                <p>Username : admin@mail.com <br> password : admin</p>
                 <form action="{{ url('/login') }}" method="POST">
                     @csrf
                     @if (session('error'))
